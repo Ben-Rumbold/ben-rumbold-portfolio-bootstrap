@@ -1,0 +1,344 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p, a {
+    font-size: 1.1rem !important;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+/* ---------- navbar ---------- */
+.navbar {
+    font-size: 1.1rem !important;
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: black;
+    color: white !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ---------- jumbotron ---------- */
+.jumbotron {
+    /* border: 3px solid red; */
+    background-color: rgb(145, 144, 144);
+    background-image: url(../assets/images/HeroPicTransparent.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 10vw;
+    background-size: auto 90vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.header-container {
+    /* border: 3px solid green; */
+    width: 96vw;
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5vh;
+}
+
+.headerText {
+    letter-spacing: -6px;
+    font-size: 9.2rem !important;
+}
+
+/* #header-text {
+    outline: 3px solid red;
+} */
+
+.subheader-container {
+    /* border: 3px solid blue; */
+    width: 45vw;
+    height: 55vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 17vh;
+    margin-right: 7.5vw;
+}
+
+#subheader-text {
+    /* outline: 3px solid purple; */
+    height: 100%;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* ---------- about me ----------- */
+.bwImg {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+#footerCredit {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* text animation
+#header-text { */
+    /* animation properties */
+  /* -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+} */
+
+/* for Firefox */
+/* @-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+} */
+
+/* for Chrome */
+/* @-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+} */
+
+@media only screen and (max-width: 1200px) {
+    .jumbotron {
+        background-position: bottom left 5vw;
+    }
+}
+
+@media only screen and (max-width: 915px) {
+    .headerText {
+        font-size: 9rem !important;
+    }
+
+    .subheader-container {
+        margin-right: 5vw;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .headerText {
+        font-size: 8rem !important;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .headerText {
+        font-size: 7rem !important;
+    }
+
+    .jumbotron {
+        background-position: bottom left 2vw;
+        background-size: auto 90vh;
+    }
+
+    .subheaderText {
+        font-size: calc(1.3rem + 3.9vw);
+    }
+
+    #subheader-text {
+        height: 100%;
+        text-align: right;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .headerText {
+        font-size: 6.3rem !important;
+    }
+
+    .jumbotron {
+        background-size: auto 85vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        background-position: bottom left;
+        background-size: auto 80vh;
+    }
+
+    .subheaderText {
+        font-size: calc(1.15rem + 3.9vw);
+    }
+}
+
+/* @media only screen and (max-width: 575px) {
+    .aboutMeImg {
+        height: 219px !important;
+        object-fit: cover;
+    }
+} */
+
+@media only screen and (max-width: 560px) {
+    .headerText {
+        font-size: 6rem !important;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .headerText {
+        font-size: 5.5rem !important;
+    }
+
+    .jumbotron {
+        background-size: auto 80vh;
+    }
+
+    .subheaderText {
+        font-size: calc(0.9rem + 3.9vw);
+    }
+
+    .subheader-container {
+        width: 40vw;
+        height: 55vh;
+        margin-right: 5vw;
+        align-items: center;
+    }
+
+    #subheader-text {
+        height: 80%;
+        text-align: right;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .jumbotron {
+        background-size: auto 75vh;
+    }
+
+    .subheaderText {
+        font-size: calc(0.8rem + 3.9vw);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .headerText {
+        font-size: 5.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .headerText {
+        font-size: 4.9rem !important;
+    }
+
+    .jumbotron {
+        background-position: bottom left -5vw;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .headerText {
+        font-size: 4.5rem !important;
+    }
+
+    .jumbotron {
+        background-position: bottom left -10vw;
+    }
+
+    #subheader-text {
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .jumbotron {
+        background-position: bottom left -15vw;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .headerText {
+        font-size: 4.2rem !important;
+    }
+
+    .jumbotron {
+        background-position: bottom left -20vw;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .headerText {
+        font-size: 4rem !important;
+    }
+
+    .jumbotron {
+        background-position: bottom left -25vw;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .headerText {
+        font-size: 3.8rem !important;
+    }
+
+    .jumbotron {
+        background-position: bottom left -30vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .headerText {
+        font-size: 3.7rem !important;
+    }
+
+    .jumbotron {
+        background-position: bottom left -33vw;
+    }
+}

@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: rgb(145, 144, 144);
+}
+
+.icon {
+    font-size: 3rem;
+}

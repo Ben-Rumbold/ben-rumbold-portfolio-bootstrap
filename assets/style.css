@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+h1, h2 {
+    letter-spacing: -1px !important;
+}
+
 p, a {
     font-size: 1.1rem !important;
 }
@@ -36,9 +40,19 @@ p, a {
 
 
 /* ---------- hero ---------- */
+/* .hero {
+    background-color: rgba(145, 145, 145);
+} */
 
 .hero {
-    background-color: rgba(145, 145, 145);
+    background-image: linear-gradient(to right, rgb(145, 145, 145), rgb(145, 145, 145), rgb(145, 145, 145), rgb(165, 165, 165), rgb(185, 185, 185), rgb(165, 165, 165), rgb(145, 145, 145), rgb(145, 145, 145), rgb(145, 145, 145));
+    background-size: 1000%;
+    animation: bg-animation 7s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left}
+    100% {background-position: right;}
 }
 
 .heroContainer {
@@ -70,7 +84,7 @@ p, a {
 }
 
 
-/* ---------- about me ----------- */
+/* ---------- work ----------- */
 
 .card {
     transition: all 0.5s;
@@ -85,8 +99,35 @@ p, a {
     filter: grayscale(50%);
 }
 
+.cardIcon {
+    font-size: 2em !important;
+}
 
-/* ---------- contact me ----------- */
+.cardIconContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* ---------- skills ----------- */
+.icon {
+    font-size: 5em !important;
+    transition: all 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.05) rotate(7deg);
+}
+
+
+@media only screen and (max-width: 576px) {
+    .icon {
+        font-size: 4em !important;
+    }
+}
+
+
+/* ---------- footer ----------- */
 #footerCredit {
     opacity: 0.5;
 }

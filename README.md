@@ -8,10 +8,10 @@ Professional, responsive web development portfolio to showcase my work, made wit
 - Transparent navbar which transforms to solid colour on scroll.
 - Navbar which collapses and creates a hamburger menu at medium screen widths and below.
 - Navbar with links to corresponding section of webpage.
-- 'About Me' section with responsive images.
-- 'Portfolio' section with cards of work with links to corresponding webpage.
-- 'Coming soon' page for not yet completed work examples, with button that redirects users back to the portfolio.
-- 'Contact Me' section links to corresponding website.
+- 'About' section with responsive images. 'Contact' section links to corresponding website.
+- 'Work' section with cards of work with links to corresponding webpage.
+- 'Skills' section with linked 
+- Footr with 
 
 ## Table of Contents (Optional)
 

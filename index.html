@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link href="assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
 
@@ -19,9 +20,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav ms-auto">
-                <a class="nav-link pointer" href="#aboutMe">About Me</a>
-                <a class="nav-link pointer" href="#portfolio">Portfolio</a>
-                <a class="nav-link pointer" href="#contactMe">Contact Me</a>
+                <a class="nav-link pointer" href="#aboutContact">About / Contact</a>
+                <a class="nav-link pointer" href="#work">Work</a>
+                <a class="nav-link pointer" href="#skills">Skills</a>
                 </div>
             </div>
         </div>
@@ -49,7 +50,7 @@
                     <h2 class="display-2 text-end heroText">Web</h2>
                 </div>
                 <div class="col-12 col-sm-6 order-sm-4 ms-auto">
-                    <h1 class="display-2 text-end">Developer</h1>
+                    <h2 class="display-2 text-end">Developer</h2>
                 </div>
                 <div class="col-12 col-sm-6 order-sm-1">
                     <h1 class="display-2 text-light text-end text-sm-start heroText">Ben</h1>
@@ -61,9 +62,9 @@
         </div>
     </div>
 
-    <!-- about me -->
-    <div class="container mt-4" id="aboutMe">
-        <div class="row mt-3">
+    <!-- about / contact -->
+    <div class="container mt-4" id="aboutContact">
+        <div class="row">
             <div class="col-6 col-lg-3 mt-3 order-sm-1">
                 <img class="img-fluid h-100 object-fit-cover bwImg aboutMeImg" src="assets/images/img2.jpg" alt="image-of-keyboard" id="image1">
             </div>
@@ -71,92 +72,129 @@
                 <img class="img-fluid h-100 object-fit-cover bwImg aboutMeImg" src="assets/images/img1.jpg" alt="image-of-web-developers" id="image2">
             </div>
             <div class="col-sm-6 col-lg-3 mt-3 h-100 text-end order-sm-2">
-                <h2 class="display-2 text-end">// About Me</h2>
+                <h2 class="display-2 text-end">// About</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam laudantium accusantium reiciendis! Nihil autem provident minus nostrum. Possimus atque accusantium tenetur incidunt et quibusdam nobis, accusamus eos quam natus provident doloremque vel!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam laudantium accusantium reiciendis! Nihil autem provident minus nostrum. Possimus atque accusantium tenetur incidunt et quibusdam nobis, accusamus eos quam natus provident doloremque vel  esse necessitatibus Lorem ipsum.</p>
             </div>
             <div class="col-sm-6 col-lg-3 mt-3 h-100 text-end text-lg-start order-sm-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam laudantium accusantium reiciendis! Nihil autem provident minus nostrum. Possimus atque accusantium tenetur incidunt et quibusdam nobis, accusamus eos quam natus provident doloremque vel! Reprehenderit aliquam, voluptates quod dolores quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque ad saepe aspernatur? Laudantium, aperiam distinctio mollitia maxime, esse necessitatibus Lorem ipsum dolor sit. Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam laudantium accusantium reiciendis! Nihil autem provident minus nostrum. Possimus atque accusantium tenetur incidunt et quibusdam nobis, accusamus eos quam natus provident doloremque vel! Reprehenderit aliquam, voluptates quod dolores quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque ad saepe aspernatur? Laudantium, aperiam distinctio mollitia maxime.</p>
+            </div>
+        </div>
+        <div class="container mt-2 g-3">
+            <div class="row justify-content-end text-end border-bottom border-dark pb-2">
+                <div class="col-12">
+                    <h2 class="display-2">// Contact</h2>
+                    <hr>
+                </div>
+                <div class="col-6 col-sm-3 text-end pointer">
+                    <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://twitter.com/">Twitter</a>
+                </div>
+                <div class="col-6 col-sm-3 text-end pointer">
+                    <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://www.facebook.com/">FaceBook</a>
+                </div>
+                <div class="col-6 col-sm-3 text-end pointer">
+                    <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://uk.linkedin.com/">LinkedIn</a>
+                </div>
+                <div class="col-6 col-sm-3 text-end pointer">
+                    <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://github.com/Ben-Rumbold">GitHub</a>
+                </div>
             </div>
         </div>
     </div>
 
 
     <!-- portfolio -->
-    <div class="container" id="portfolio">
-        <div class="row mt-4 text-end">
+    <div class="container" id="work">
+        <div class="row mt-4 text-end border-bottom border-dark pb-3">
             <div class="col-12">
-                <h2 class="display-2">// Portfolio</h2>
+                <h2 class="display-2">// Work</h2>
                 <hr>
             </div>
-            <div class="col-sm-6 col-lg-3 text-center mt-3">
+            <div class="col-sm-6 col-lg-3 text-center mt-2">
                 <div class="card h-100 rounded-0">
                     <a target="_blank" href="https://ben-rumbold.github.io/ben-rumbold-portfolio/index.html"><img class="img-fluid object-fit-cover pointer" src="assets/images/Screenshot1.png" alt="example-work"></a>
                     <div class="card-body">
                         <h5 class="card-title">Portfolio</h5>
                         <p class="card-text">Portfolio to showcase my web development work</p>
-                        <a class="btn btn-sm btn-secondary me-4">HTML</a><a class="btn btn-sm btn-secondary">CSS</a>
+                        <div class="cardIconContainer">
+                            <i class="fa-brands fa-html5 cardIcon"></i>
+                            <i class="fa-brands fa-css3-alt cardIcon"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3 text-center mt-3">
+            <div class="col-sm-6 col-lg-3 text-center mt-2">
                 <div class="card h-100 rounded-0">
                     <a href="comingsoon.html"><img class="img-fluid object-fit-cover bwImg pointer" src="assets/images/Screenshot2.jpg" alt="example-work"></a>
                     <div class="card-body">
                         <h5 class="card-title">Floorplan App</h5>
                         <p class="card-text">Application to streamline the flooring quotation process</p>
-                        <a class="btn btn-sm btn-secondary me-4">HTML</a><a class="btn btn-sm btn-secondary">CSS</a><a class="btn btn-sm btn-secondary ms-4">JS</a>
+                        <div class="cardIconContainer">
+                            <i class="fa-brands fa-html5 cardIcon"></i>
+                            <i class="fa-brands fa-css3-alt cardIcon"></i>
+                            <i class="fa-brands fa-js cardIcon"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3 text-center mt-3">
+            <div class="col-sm-6 col-lg-3 text-center mt-2">
                 <div class="card h-100 rounded-0">
                     <a href="comingsoon.html"><img class="img-fluid object-fit-cover bwImg pointer" src="assets/images/Screenshot3.jpg" alt="example-work"></a>
                     <div class="card-body">
                         <h5 class="card-title">Body Fat Calculator</h5>
                         <p class="card-text">Library of dexa scan results with images for comparison</p>
-                        <a class="btn btn-sm btn-secondary me-4">HTML</a><a class="btn btn-sm btn-secondary">CSS</a><a class="btn btn-sm btn-secondary ms-4">JS</a>
+                        <div class="cardIconContainer">
+                            <i class="fa-brands fa-html5 cardIcon"></i>
+                            <i class="fa-brands fa-css3-alt cardIcon"></i>
+                            <i class="fa-brands fa-js cardIcon"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3 text-center mt-3">
+            <div class="col-sm-6 col-lg-3 text-center mt-2">
                 <div class="card h-100 rounded-0">
                     <a href="comingsoon.html"><img class="img-fluid object-fit-cover bwImg pointer" src="assets/images/Screenshot4.jpg" alt="example-work"></a>
                     <div class="card-body">
                         <h5 class="card-title">PT Arbitrage</h5>
                         <p class="card-text">Service to connenct Personal Trainers to clients</p>
-                        <a class="btn btn-sm btn-secondary me-4">HTML</a><a class="btn btn-sm btn-secondary">CSS</a><a class="btn btn-sm btn-secondary ms-4">JS</a>
+                        <div class="cardIconContainer">
+                            <i class="fa-brands fa-html5 cardIcon"></i>
+                            <i class="fa-brands fa-css3-alt cardIcon"></i>
+                            <i class="fa-brands fa-js cardIcon"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-     
-    <!-- contact me -->
-    <div class="container mt-4 g-3" id="contactMe">
-        <div class="row justify-content-end text-end">
-            <div class="col-12">
-                <h2 class="display-2">// Contact Me</h2>
+
+    <!-- skills -->
+    <div class="container" id="skills">
+        <div class="row mt-4 border-bottom border-dark">
+            <div class="col-12 text-end">
+                <h2 class="display-2">// Skills</h2>
                 <hr>
             </div>
-            <div class="col-6 col-sm-3 text-end pointer">
-                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://twitter.com/">Twitter</a>
+            <div class="col-3 text-center mb-2">
+                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML"><i class="fa-brands fa-html5 icon pointer"></i></a>
             </div>
-            <div class="col-6 col-sm-3 text-end pointer">
-                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://www.facebook.com/">FaceBook</a>
+            <div class="col-3 text-center mb-2">
+                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><i class="fa-brands fa-css3-alt icon pointer"></i></a>
             </div>
-            <div class="col-6 col-sm-3 text-end pointer">
-                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://uk.linkedin.com/">LinkedIn</a>
+            <div class="col-3 text-center mb-2">
+                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><i class="fa-brands fa-js icon pointer"></i></a>
             </div>
-            <div class="col-6 col-sm-3 text-end pointer">
-                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://github.com/Ben-Rumbold">GitHub</a>
+            <div class="col-3 text-center mb-2">
+                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover" target="_blank" href="https://getbootstrap.com/"><i class="fa-brands fa-bootstrap icon pointer"></i></a>
             </div>
         </div>
     </div>
-    <div class="container mt-4 mb-2 g-3">
+     
+    <!-- footer  -->
+    <div class="container mt-4 mb-3 g-3">
         <div class="row">
             <div class="col-12 text-end" id="footerCredit">
-                Design Inspired by and picture of Dennis Snellenberg
+                <a class="link-dark link-underline-opacity-0 link-underline-opacity-100-hover pointer" target="_blank" href="https://dennissnellenberg.com/"><em>Design Inspired by and picture of Dennis Snellenberg</em></a>
             </div>
         </div>
     </div>

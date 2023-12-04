@@ -17,6 +17,7 @@ p, a {
     cursor: pointer;
 }
 
+
 /* ---------- navbar ---------- */
 #filler {
     color: rgba(145, 145, 145);
@@ -34,56 +35,7 @@ p, a {
 }
 
 
-/* ---------- jumbotron ---------- */
-/* .jumbotron {
-    background-color: rgb(145, 144, 144);
-    background-image: url(../assets/images/HeroPicTransparent.png);
-    background-repeat: no-repeat;
-    background-position: bottom left 10vw;
-    background-size: auto 90vh;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-end;
-}
-
-.header-container {
-    width: 96vw;
-    height: 25vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 5vh;
-}
-
-.headerText {
-    letter-spacing: -6px;
-    font-size: 9.2rem !important;
-}
-
-.subheader-container {
-    width: 45vw;
-    height: 55vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-top: 17vh;
-    margin-right: 7.5vw;
-}
-
-#subheader-text {
-    height: 100%;
-    text-align: right;
-    display: flex;
-    align-items: flex-end;
-} */
-
-
-
-
-
-/* test hero */
+/* ---------- hero ---------- */
 
 .hero {
     background-color: rgba(145, 145, 145);
@@ -119,13 +71,6 @@ p, a {
 
 
 /* ---------- about me ----------- */
-.bwImg {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(50%);
-}
-
-
-/* ---------- about me ----------- */
 
 .card {
     transition: all 0.5s;
@@ -135,244 +80,13 @@ p, a {
     transform: scale(1.025);
 }
 
+.bwImg {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
 
-/* ---------- about me ----------- */
+
+/* ---------- contact me ----------- */
 #footerCredit {
     opacity: 0.5;
 }
-
-
-
-/* .imgContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: absolute;
-    position: top left;
-    outline: 3px solid red;
-    width: 35%;
-    height: 50%;
-}
-
-#picMe {
-    width: calc(100% - 10vw);
-    max-width: 377px;
-    min-width: 100px;
-    height: auto;
-    margin: 0 auto;
-} */
-
-
-
-
-
-
-
-/* @media only screen and (max-width: 1200px) {
-    .jumbotron {
-        background-position: bottom left 5vw;
-    }
-}
-
-@media only screen and (max-width: 915px) {
-    .headerText {
-        font-size: 9rem !important;
-    }
-
-    .subheader-container {
-        margin-right: 5vw;
-    }
-}
-
-@media only screen and (max-width: 820px) {
-    .headerText {
-        font-size: 8rem !important;
-    }
-}
-
-@media only screen and (max-width: 720px) {
-    .headerText {
-        font-size: 7rem !important;
-    }
-
-    .jumbotron {
-        background-position: bottom left 2vw;
-        background-size: auto 90vh;
-    }
-
-    .subheaderText {
-        font-size: calc(1.3rem + 3.9vw);
-    }
-
-    #subheader-text {
-        height: 100%;
-        text-align: right;
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media only screen and (max-width: 625px) {
-    .headerText {
-        font-size: 6.3rem !important;
-    }
-
-    .jumbotron {
-        background-size: auto 85vh;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .jumbotron {
-        background-position: bottom left;
-        background-size: auto 80vh;
-    }
-
-    .subheaderText {
-        font-size: calc(1.15rem + 3.9vw);
-    }
-} */
-
-/* @media only screen and (max-width: 560px) {
-    .headerText {
-        font-size: 6rem !important;
-    }
-}
-
-@media only screen and (max-width: 530px) {
-    .headerText {
-        font-size: 5.5rem !important;
-    }
-
-    .jumbotron {
-        background-size: auto 80vh;
-    }
-
-    .subheaderText {
-        font-size: calc(0.9rem + 3.9vw);
-    }
-
-    .subheader-container {
-        width: 40vw;
-        height: 55vh;
-        margin-right: 5vw;
-        align-items: center;
-    }
-
-    #subheader-text {
-        height: 80%;
-        text-align: right;
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .jumbotron {
-        background-size: auto 75vh;
-    }
-
-    .subheaderText {
-        font-size: calc(0.8rem + 3.9vw);
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .headerText {
-        font-size: 5.2rem !important;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .headerText {
-        font-size: 4.9rem !important;
-    }
-
-    .jumbotron {
-        background-position: bottom left -5vw;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    .headerText {
-        font-size: 4.5rem !important;
-    }
-
-    .jumbotron {
-        background-position: bottom left -10vw;
-    }
-
-    #subheader-text {
-        height: 75%;
-    }
-}
-
-@media only screen and (max-width: 410px) {
-    .jumbotron {
-        background-position: bottom left -15vw;
-    }
-} */
-
-      /* @media only screen and (max-width: 390px) {
-         .heroText {
-             font-size: calc(1.5rem + 3.9vw) !important;
-         }
-      }
-      
-      @media only screen and (max-width: 360px) {
-         .heroText {
-             font-size: calc(1.4rem + 3.9vw) !important;
-         }
-      }
-      
-      @media only screen and (max-width: 340px) {
-         .heroText {
-             font-size: calc(1.3rem + 3.9vw) !important;
-         }
-      }
-      
-      @media only screen and (max-width: 320px) {
-         .heroText {
-             font-size: calc(1.2rem + 3.9vw) !important;
-         }
-      } */
-
-/* @media only screen and (max-width: 380px) {
-    .headerText {
-        font-size: 4.2rem !important;
-    }
-
-    .jumbotron {
-        background-position: bottom left -20vw;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    .headerText {
-        font-size: 4rem !important;
-    }
-
-    .jumbotron {
-        background-position: bottom left -25vw;
-    }
-}
-
-@media only screen and (max-width: 330px) {
-    .headerText {
-        font-size: 3.8rem !important;
-    }
-
-    .jumbotron {
-        background-position: bottom left -30vw;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .headerText {
-        font-size: 3.7rem !important;
-    }
-
-    .jumbotron {
-        background-position: bottom left -33vw;
-    }
-} */

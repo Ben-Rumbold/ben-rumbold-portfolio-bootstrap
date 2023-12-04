@@ -2,6 +2,7 @@
 
 ## Description
 
+https://ben-rumbold.github.io/ben-rumbold-portfolio-bootstrap/
 
 Professional, responsive web development portfolio to showcase my work, made with HTML, CSS, JavaScript and Bootstrap. Featuring:
 - Transparent navbar which transforms to solid colour on scroll.
@@ -21,14 +22,14 @@ Professional, responsive web development portfolio to showcase my work, made wit
 
 ## Installation
 
-N/A
+https://ben-rumbold.github.io/ben-rumbold-portfolio-bootstrap/
 
 ## Usage
 
 *Laptop (1440px)*
-![alt text](assets/images/ReadMe1.png)
+![alt text](assets/images/ReadMeScreenshot1.png)
 
-![alt text](assets/images/ReadMe2.png)
+![alt text](assets/images/ReadMeScreenshot2.png)
 *Mobile (425px)*
     
 
@@ -36,7 +37,8 @@ N/A
 
 - Design inspired by (specifically hero section): https://dennissnellenberg.com/
 - Tutorial for navbar (JavaScript): https://www.youtube.com/watch?v=z70GTU3p72I
-- All images: https://unsplash.com/
+- Hero picture: Dennis Snellenberg
+- All other images: https://unsplash.com/
 
 ## License
 

@@ -18,8 +18,12 @@ p, a {
 }
 
 /* ---------- navbar ---------- */
+#filler {
+    color: rgba(145, 145, 145);
+}
+
 .navbar {
-    font-size: 1.1rem !important;
+    font-size: calc(.8rem + 3.9vw) !important;
     transition: all 0.5s;
 }
 
@@ -31,8 +35,7 @@ p, a {
 
 
 /* ---------- jumbotron ---------- */
-.jumbotron {
-    /* border: 3px solid red; */
+/* .jumbotron {
     background-color: rgb(145, 144, 144);
     background-image: url(../assets/images/HeroPicTransparent.png);
     background-repeat: no-repeat;
@@ -46,7 +49,6 @@ p, a {
 }
 
 .header-container {
-    /* border: 3px solid green; */
     width: 96vw;
     height: 25vh;
     display: flex;
@@ -60,12 +62,7 @@ p, a {
     font-size: 9.2rem !important;
 }
 
-/* #header-text {
-    outline: 3px solid red;
-} */
-
 .subheader-container {
-    /* border: 3px solid blue; */
     width: 45vw;
     height: 55vh;
     display: flex;
@@ -76,11 +73,48 @@ p, a {
 }
 
 #subheader-text {
-    /* outline: 3px solid purple; */
     height: 100%;
     text-align: right;
     display: flex;
     align-items: flex-end;
+} */
+
+
+
+
+
+/* test hero */
+
+.hero {
+    background-color: rgba(145, 145, 145);
+}
+
+.heroContainer {
+    background-image: url(../assets/images/HeroPicTransparent.png);
+    background-repeat: no-repeat;
+    background-position: bottom left -4px;
+    background-size: 30%;
+}
+
+@media only screen and (max-width: 991px) {
+    .heroContainer {
+        background-image: url(../assets/images/HeroPicTransparent.png);
+        background-size: 35%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .heroContainer {
+        background-image: url(../assets/images/HeroPicTransparent.png);
+        background-size: 40%;
+}
+}
+
+@media only screen and (max-width: 575px) {
+    .heroContainer {
+        background-image: url(../assets/images/HeroPicTransparent.png);
+        background-size: 50%;
+}
 }
 
 
@@ -90,68 +124,51 @@ p, a {
     filter: grayscale(50%);
 }
 
+
+/* ---------- about me ----------- */
+
+.card {
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.025);
+}
+
+
+/* ---------- about me ----------- */
 #footerCredit {
     opacity: 0.5;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* text animation
-#header-text { */
-    /* animation properties */
-  /* -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
-} */
-
-/* for Firefox */
-/* @-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
-} */
-
-/* for Chrome */
-/* @-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
+/* .imgContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    position: top left;
+    outline: 3px solid red;
+    width: 35%;
+    height: 50%;
 }
 
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+#picMe {
+    width: calc(100% - 10vw);
+    max-width: 377px;
+    min-width: 100px;
+    height: auto;
+    margin: 0 auto;
 } */
 
-@media only screen and (max-width: 1200px) {
+
+
+
+
+
+
+/* @media only screen and (max-width: 1200px) {
     .jumbotron {
         background-position: bottom left 5vw;
     }
@@ -214,16 +231,9 @@ p, a {
     .subheaderText {
         font-size: calc(1.15rem + 3.9vw);
     }
-}
-
-/* @media only screen and (max-width: 575px) {
-    .aboutMeImg {
-        height: 219px !important;
-        object-fit: cover;
-    }
 } */
 
-@media only screen and (max-width: 560px) {
+/* @media only screen and (max-width: 560px) {
     .headerText {
         font-size: 6rem !important;
     }
@@ -301,9 +311,33 @@ p, a {
     .jumbotron {
         background-position: bottom left -15vw;
     }
-}
+} */
 
-@media only screen and (max-width: 380px) {
+      /* @media only screen and (max-width: 390px) {
+         .heroText {
+             font-size: calc(1.5rem + 3.9vw) !important;
+         }
+      }
+      
+      @media only screen and (max-width: 360px) {
+         .heroText {
+             font-size: calc(1.4rem + 3.9vw) !important;
+         }
+      }
+      
+      @media only screen and (max-width: 340px) {
+         .heroText {
+             font-size: calc(1.3rem + 3.9vw) !important;
+         }
+      }
+      
+      @media only screen and (max-width: 320px) {
+         .heroText {
+             font-size: calc(1.2rem + 3.9vw) !important;
+         }
+      } */
+
+/* @media only screen and (max-width: 380px) {
     .headerText {
         font-size: 4.2rem !important;
     }
@@ -341,4 +375,4 @@ p, a {
     .jumbotron {
         background-position: bottom left -33vw;
     }
-}
+} */
